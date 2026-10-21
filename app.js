@@ -1,8 +1,8 @@
 (function(){
 const $=s=>document.querySelector(s),app=$('#app'),E=escHTML;
 // === Store config: swap these when the Gumroad product exists ===
-const GUMROAD_PRODUCT_ID='REPLACE_WITH_GUMROAD_PRODUCT_ID';
-const GUMROAD_URL='https://pocketappstudio.gumroad.com/'; // replace with the product page link
+const GUMROAD_PRODUCT_ID='RdbwTx1zwJsOZrP8EYkJTw==';
+const GUMROAD_URL='https://pocketappstudio.gumroad.com/l/yulewx';
 const PRICE='$9.99',BUY_URL=GUMROAD_URL;
 const lic={ok(){return localStorage.getItem('itp-unlocked')==='1'},set(k){localStorage.setItem('itp-unlocked','1');localStorage.setItem('itp-key',k)}};
 async function verifyKey(key){if(GUMROAD_PRODUCT_ID.startsWith('REPLACE'))return{err:'Not on sale yet'};
